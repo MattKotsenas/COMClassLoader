@@ -13,7 +13,7 @@ namespace RegisteredCOMLoader.Tests
         [TestMethod]
         public void it_can_be_instantiated_directly()
         {
-            var link = ClassLoader.Load<ShellLinkFolder, IShellLink>();
+            var link = new RegisteredClassLoader().Load<ShellLinkFolder, IShellLink>();
 
             var sb = new StringBuilder();
             link.SetDescription(Expected);
