@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{504C6C1C-4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisteredCOMLoader.Tests", "test\RegisteredCOMLoader.Tests\RegisteredCOMLoader.Tests.csproj", "{4B8E0413-3D0D-4898-9F1A-A5480AE4C757}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnregisteredCOMLoader.Tests", "test\UnregisteredCOMLoader.Tests\UnregisteredCOMLoader.Tests.csproj", "{D91FF7ED-5B69-4E07-847A-AE04C3E9BEDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{4B8E0413-3D0D-4898-9F1A-A5480AE4C757}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B8E0413-3D0D-4898-9F1A-A5480AE4C757}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B8E0413-3D0D-4898-9F1A-A5480AE4C757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D91FF7ED-5B69-4E07-847A-AE04C3E9BEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D91FF7ED-5B69-4E07-847A-AE04C3E9BEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D91FF7ED-5B69-4E07-847A-AE04C3E9BEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D91FF7ED-5B69-4E07-847A-AE04C3E9BEDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +38,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{916D7087-4BE5-4AFE-9BA1-1194798A7DA8} = {4EB8970E-1B92-446B-B516-9980F25F47CB}
 		{4B8E0413-3D0D-4898-9F1A-A5480AE4C757} = {504C6C1C-46E9-4A59-9C0B-253B66574BA8}
+		{D91FF7ED-5B69-4E07-847A-AE04C3E9BEDF} = {504C6C1C-46E9-4A59-9C0B-253B66574BA8}
 	EndGlobalSection
 EndGlobal
