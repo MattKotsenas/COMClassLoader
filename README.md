@@ -73,3 +73,5 @@ and now you _must_ provide your own `ComImport` definitions.
 
 ## // TODO
 * [ ] Support safe unloading of unmanaged assemblies (currently the COM server lives for the life of the host process)
+* [ ] Support creating / using registration free COM manifests (see https://dzone.com/articles/quick-guide-registration-free)
+* [ ] Create extensible factories so that activation techniques can be chained together (e.g. fallback mechanisms)
